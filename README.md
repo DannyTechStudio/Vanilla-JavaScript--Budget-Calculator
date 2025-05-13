@@ -20,7 +20,7 @@ Use the reset button to start again.
 └── script.js
 
 # Live Page
-View it on GitHub Pages (Replace with your live link)
+https://github.io/dannytechstudio/Vanilla-JavaScript--Budget-Calculator/
 
 # Tech Stack
 HTML
