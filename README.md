@@ -30,6 +30,8 @@ JavaScript
 # Screenshot
 ![Screenshot 2025-05-13 004334](https://github.com/user-attachments/assets/f8f4f700-b30a-4f38-acce-3638eac3c0c3)
 ![Screenshot 2025-05-13 004407](https://github.com/user-attachments/assets/69b3321e-8a2a-4456-97fd-c3b5da8e2e03)
+![Screenshot 2025-05-13 004636](https://github.com/user-attachments/assets/ce806eda-bbd5-450e-af47-c8dcb708fc0c)
+![Screenshot 2025-05-13 004658](https://github.com/user-attachments/assets/564c839c-2d66-4084-ba39-24c10d6d983f)
 
 # License
 This project is open-source and available under the MIT License.
