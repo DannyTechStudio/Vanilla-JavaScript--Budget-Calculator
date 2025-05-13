@@ -28,7 +28,7 @@ CSS
 JavaScript
 
 # Screenshot
-![Screenshot 2025-05-13 004357](https://github.com/user-attachments/assets/b62fa3f8-686f-4b68-aa06-60e0af7e59c8)
+![Screenshot 2025-05-13 004334](https://github.com/user-attachments/assets/f8f4f700-b30a-4f38-acce-3638eac3c0c3)
 ![Screenshot 2025-05-13 004407](https://github.com/user-attachments/assets/69b3321e-8a2a-4456-97fd-c3b5da8e2e03)
 
 # License
