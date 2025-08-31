@@ -9,39 +9,41 @@
     <link rel="shortcut icon" href="images/Budget-calc-logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 </head>
-<nav>
-    <div class="logo-container">
-        <img src="images/Budget-calc-logo.png" alt="Logo image">
-        <h2>Budget Calculator</h2>
-    </div>
-    <i class="bi bi-gear"></i>
-    <div class="setting-container">
-        <div class="sub-setting-container">
-            <div class="wrapper">
-                <h3>Theme</h3>
-                <p>Toggle between light and dark theme.</p>
+<body data-theme="light">
+    <nav>
+        <div class="logo-container">
+            <img src="images/Budget-calc-logo.png" alt="Logo image">
+            <h2>Budget Calculator</h2>
+        </div>
+        <abbr title="Setting">
+            <i class="bi bi-gear" id="setting-icon"></i>
+        </abbr>
+        <div class="setting-container">
+            <div class="sub-setting-container">
+                <div class="wrapper">
+                    <h3>Theme</h3>
+                    <p>Toggle between light and dark theme.</p>
+                </div>
+                <div class="toggle-container">
+                    <div class="path"></div>
+                </div>
             </div>
-            <div class="toggle-container">
-                <div class="path"></div>
+            <div class="sub-setting-container">
+                <div class="wrapper">
+                    <h3>Choose Currency</h3>
+                    <p>Choose from our pre-listed currencies.</p>
+                </div>
+                <input type="text" list="currency-list" class="currency-input" placeholder="Select currency">
+                <datalist id="currency-list">
+                    <option value="USD">$</option>
+                    <option value="EUR">€</option>
+                    <option value="CHN">¥</option>
+                    <option value="GHS">₵</option>
+                    <option value="NGN">₦</option>
+                </datalist>
             </div>
         </div>
-        <div class="sub-setting-container">
-            <div class="wrapper">
-                <h3>Choose Currency</h3>
-                <p>Choose from our pre-listed currencies.</p>
-            </div>
-            <input type="text" list="currency-list" class="currency-input" placeholder="Select currency">
-            <datalist id="currency-list">
-                <option value="USD">$</option>
-                <option value="EUR">€</option>
-                <option value="CHN">¥</option>
-                <option value="GHS">₵</option>
-                <option value="NGN">₦</option>
-            </datalist>
-        </div>
-    </div>
-</nav>
-<body>
+    </nav>
     <!-- <div class="container">
         <div class="header-container">
             <h2 class="header">DannyTech</h2><i class="italic">studio</i>
