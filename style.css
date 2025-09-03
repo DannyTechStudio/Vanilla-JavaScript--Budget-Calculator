@@ -295,20 +295,60 @@ input:focus {
     border-radius: 5px;
 }
 
-
-
-
-
-
-
-
-
-
 h3 {
     color: var(--main-font-color);
     font-size: 1.2rem;
 }
 
+.wants-savings-main-container {
+    border: 1px solid black;
+    width: 110%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.wants-main-container {
+    width: 72%;
+}
+
+.wants-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    gap: 5px;
+    border: 1px solid var(--input-border-color);
+    border-radius: 5px;
+    background-color: var(--container-bg-color);
+    box-shadow: 2px 4px 6px var(--drop-shadow-color);
+}
+
+.sub-wants-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.savings-main-container {
+    width: 25%;
+}
+
+.savings-container {
+    padding: 10px;
+    border: 1px solid var(--input-border-color);
+    border-radius: 5px;
+    background-color: var(--container-bg-color);
+    box-shadow: 2px 4px 6px var(--drop-shadow-color);
+}
+
+.sub-savings-container {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 
 
 
